@@ -1,3 +1,4 @@
+/** @noSelf */
 declare module "lurker" {
     export function update(): void;
     /**
