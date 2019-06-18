@@ -1,0 +1,10 @@
+{
+  "name": "tstl-lurker",
+  "version": "1.0.0",
+  "description": "Declarations for lurker for use with TypeScriptToLua.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "types": "index.d.ts"
+}
