@@ -8,7 +8,7 @@ These declarations are made to be used with the [TypeScriptToLua](https://github
   <img src="https://i.imgur.com/BoYr2Hj.gif" />
 </div>
 
-Using the `--watch` option with _TypeScriptToLua_ it is possible to compile and hotswap code running in a LÖVE game when saving a _.ts_ file as seen in the example above.
+> Using the `--watch` option with _TypeScriptToLua_ it is possible to compile and hotswap code running in a LÖVE game when saving a _.ts_ file as seen in this example.
 
 These declarations are available via _npm_ which makes them downloadable with:
 
