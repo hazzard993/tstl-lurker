@@ -28,9 +28,15 @@ Upon installation these declarations can be linked to a _tsconfig.json_ file.
 And used within any _.ts_ file.
 
 ```ts
-import * as lurker from "lurker";
+import lurker = require("lurker");
+// this import style is not available in esnext
 
-lurker.update();
+lurker.path = "./entities";
+lurker.quiet = false;
+
+love.update = () => {
+    lurker.update();
+};
 ```
 
 Make sure to append `";./node_modules/?/?.lua"` to your `package.path` in a _conf.ts_ file (this is run first) to assist where Lua looks for modules.
