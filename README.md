@@ -31,6 +31,9 @@ And used within any _.ts_ file.
 import lurker = require("lurker");
 // this import style is not available in esnext
 
+lurker.preswap = (f) => f === "lualib_bundle.lua";
+// do NOT hotswap lualib_bundle.lua, lurker can't hotswap this
+
 lurker.path = "./entities";
 lurker.quiet = false;
 
